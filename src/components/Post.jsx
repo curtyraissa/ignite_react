@@ -1,3 +1,5 @@
+import styles from './Post.module.css'
+
 export function Post(){
     return(
         <article className={styles.post}>
@@ -12,8 +14,8 @@ export function Post(){
                 <time title="13 de Dez às 17:00" dateTime="2023-12-13 17:00">Publicado há 1h</time>
             </header>
             <div className={styles.content}>
-                <p>Fala Galera</p>
-                <p>blablabla</p>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p>Lorem ipsum dolor sit amet</p>
                 <p><a href="">github/curtyraissa</a></p>
                 <p><a href="">#novoprojeto</a></p>
             </div>
